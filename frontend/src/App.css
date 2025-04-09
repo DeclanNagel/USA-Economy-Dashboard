@@ -1,0 +1,235 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header-title {
+  margin-top: -410px; 
+  color: #1F618D;
+  font-family: 'Georgia', serif;
+}
+
+.divider-1 {
+  margin-top: -35px;
+  transform: translateX(-30%);
+  width: 220%;
+  border: 1px solid #626567;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  color: #2c6791;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}
+
+.nav-links a:hover {
+  color: #555252;
+  text-decoration: underline;
+}
+
+.divider-2 {
+  transform: translateX(-30%);
+  width: 220%;
+  border: 1px solid #626567;
+}
+
+.left-menu-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;      
+  background-color: #424242; 
+  border: 2px solid #424242;    
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.left-menu-icon:hover {
+  background-color: #616161;
+}
+
+.left-menu-container {
+  position: absolute;
+  top: 130px;
+  left: 85px
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  left: -50px;
+  background-color: #424242;
+  border: 2px solid #424242;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px 0;
+  min-width: 150px;
+  animation: fadeIn 0.25s ease-in-out;
+  z-index: 10;
+}
+
+.menu-option {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Georgia', serif;
+}
+
+.menu-option:hover {
+  background-color: #616161;
+  border-radius: 12px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.datagraph-container {
+  position: absolute;
+  left: 230px;
+  bottom: 280px;
+}
+
+.right-menu-container {
+  position: absolute;
+  top: 130px;
+  right: 85px;
+}
+
+.right-menu-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;      
+  background-color: #424242; 
+  border: 2px solid #424242;    
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.right-menu-icon:hover {
+  background-color: #616161;
+}
+
+.dropdown-menu-2 {
+  position: absolute;
+  top: 60px;
+  left: -50px;
+  background-color: #424242;
+  border: 2px solid #424242;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px 0;
+  min-width: 150px;
+  animation: fadeIn 0.25s ease-in-out;
+  z-index: 10;
+}
+
+.menu-option-2 {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Georgia', serif;
+}
+
+.menu-option-2:hover {
+  background-color: #616161;
+  border-radius: 12px;
+}
+
+.notes-container {
+  position: absolute;
+  top: 600px;   
+  left: 680px;  
+  z-index: 5;
+}
+
+.text-box-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;      
+  background-color: #424242; 
+  border: 2px solid #424242;    
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.text-box-icon:hover {
+  background-color: #616161;
+}
+
+.text-box {
+  position: absolute;
+  top: 65px;
+  left: -48px;
+  background-color: #424242;
+  border: 2px solid #424242;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px 0;
+  min-width: 150px;
+  animation: fadeIn 0.25s ease-in-out;
+  z-index: 10;
+}

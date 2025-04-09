@@ -1,0 +1,153 @@
+notes on ID values of FRED API
+
+##Line Graphs:
+
+Gross Domestic Product
+   ID: GDP
+   Frequency: Quarterly
+   Units: Billions of Dollars
+
+Real Gross Domestic Product
+   ID: GDPC1
+   Frequency: Quarterly
+   Units: Billions of Chained 2017 Dollars
+
+Gross Domestic Product
+   ID: GDPA
+   Frequency: Annual
+   Units: Billions of Dollars
+
+Personal Consumption Expenditures
+   ID: PCEC
+   Frequency: Quarterly
+   Units: Billions of Dollars
+
+Personal Consumption Expenditures
+   ID: PCECA
+   Frequency: Annual
+   Units: Billions of Dollars
+
+Federal government current expenditures: Interest payments
+   ID: A091RC1Q027SBEA
+   Frequency: Quarterly
+   Units: Billions of Dollars
+
+Personal Saving
+   ID: PSAVE
+   Frequency: Quarterly
+   Units: Billions of Dollars
+
+Personal saving
+   ID: A071RC1A027NBEA
+   Frequency: Annual
+   Units: Billions of Dollars
+
+Real gross domestic product per capita
+   ID: A939RX0Q048SBEA
+   Frequency: Quarterly
+   Units: Chained 2017 Dollars
+
+ Real Disposable Personal Income: Per Capita
+   ID: A229RX0
+   Frequency: Monthly
+   Units: Chained 2017 Dollars
+
+Real Disposable Personal Income: Per Capita
+   ID: A229RX0A048NBEA
+   Frequency: Annual
+   Units: Chained 2017 Dollars
+
+Personal income per capita
+   ID: A792RC0Q052SBEA
+   Frequency: Quarterly
+   Units: Dollars
+
+Personal income per capita
+   ID: A792RC0A052NBEA
+   Frequency: Annual
+   Units: Dollars
+
+ Gross domestic product per capita
+   ID: A939RC0Q052SBEA
+   Frequency: Quarterly
+   Units: Dollars
+
+Gross domestic product per capita
+   ID: A939RC0A052NBEA
+   Frequency: Annual
+   Units: Dollars
+
+Real personal consumption expenditures per capita
+   ID: A794RX0Q048SBEA
+   Frequency: Quarterly
+   Units: Chained 2017 Dollars
+
+Disposable personal income: Per capita
+   ID: A229RC0A052NBEA
+   Frequency: Annual
+   Units: Dollars
+
+ Disposable personal income: Per capita
+   ID: A229RC0Q052SBEA
+   Frequency: Quarterly
+   Units: Dollars
+
+Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
+   ID: CPIAUCSL
+   Frequency: Monthly
+   Units: Index 1982-1984=100
+
+Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
+   ID: CUUS0000SA0
+   Frequency: Semiannual
+   Units: Index 1982-1984=100
+
+Inflation, consumer prices for the United States
+   ID: FPCPITOTLZGUSA
+   Frequency: Annual
+   Units: Percent
+
+Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
+   ID: CPILFENS
+   Frequency: Monthly
+   Units: Index 1982-1984=100
+
+ Consumer Price Index: All Items: Total for United States
+   ID: CPALTT01USM657N
+   Frequency: Monthly
+   Units: Growth rate previous period
+
+Producer Price Index by Commodity: All Commodities
+   ID: PPIACO
+   Frequency: Monthly
+   Units: Index 1982=100
+
+ Producer Price Index by Commodity: Final Demand
+   ID: PPIFIS
+   Frequency: Monthly
+   Units: Index Nov 2009=100
+
+Producer Price Index by Commodity: All Commodities
+   ID: PPIACO
+   Frequency: Monthly
+   Units: Index 1982=100
+
+ Unemployment Level
+   ID: UNEMPLOY
+   Frequency: Monthly
+   Units: Thousands of Persons
+
+Unemployment Rate
+   ID: UNRATE
+   Frequency: Monthly
+   Units: Percent
+
+Unemployment Rate for United States
+   ID: M0892AUSM156SNBR
+   Frequency: Monthly
+   Units: Percent
+
+ Unemployment Rate - 20 Yrs. & over
+   ID: LNS14000024
+   Frequency: Monthly
+   Units: Percent
