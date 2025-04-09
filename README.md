@@ -10,16 +10,14 @@ Currently, this project is a work-in-progress, with features being developed and
 
 - **Front-End**: 
   - React.js
-  - D3.js
-  - Tailwind CSS
+  - decharts.js
+  - CSS
 - **Back-End**: 
   - Python (FastAPI)
 - **Database**:
   - PostgreSQL / MongoDB (if storing data)
 - **APIs / Data Sources**:
   - FRED (Federal Reserve Economic Data)
-  - World Bank
-  - IMF (International Monetary Fund)
 
 ## Features
 
@@ -34,7 +32,7 @@ Currently, this project is a work-in-progress, with features being developed and
 
 
 ## Current Progress
-- 
+- Implemented rough draft UI
 
 ## Roadmap
 
